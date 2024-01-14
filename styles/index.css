@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    background: #1D1C1C;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-wrapper {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #7A7A7A;
+}
+
+.iphone-body {
+    width: 600px;
+    height: 300px;
+    background-image: url('../resources/iPhone_13_Pro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 19px;
+    padding-top: 18px;
+    margin-top: 200px;
+    
+}
+.iphone-screen {
+    width: 585px;
+    height: 290px;
+    background-image: url('../resources/Place_Your_Design_Here.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.iphone-body-text-wrapper {
+    color: aliceblue;
+    text-align: center;
+    padding: 14px;
+}
+.iphone-body-text-wrapper h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    font-weight: 700;
+}
+.iphone-body-text-wrapper h3 {
+    color: #F5F5F5;
+    font-size: 20;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.iphone-body-text-wrapper p {
+    color: #7A7A7A;
+    font-size: 12px;
+    text-align: center;
+}
